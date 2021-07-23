@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Play Drum</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="drum-selector">
+            <h3>Drum Kit Selector</h3>
+            <select>
+                <option value="west-coast-drum-kit">West Coast Drum Kit</option>
+            </select>
+        </div>
+        
+        <div class="drum-items">
+            
+            <div class="drum-group">
+                <h3>Claps</h3>
+                <button data-src="./audio/west-coast-drum-kit/claps-snares/1.wav" class="item" data-key="Q">
+                    Clap 1<br />
+                    <span class="shortcut">(Q)</span>
+                </button>
+                <button data-src="./audio/west-coast-drum-kit/claps-snares/2.wav" class="item" data-key="W">
+                    Clap 2<br />
+                    <span class="shortcut">(W)</span>
+                </button>
+                <button data-src="./audio/west-coast-drum-kit/claps-snares/3.wav" class="item" data-key="E">
+                    Clap 3<br />
+                    <span class="shortcut">(E)</span>
+                </button>
+                <button data-src="./audio/west-coast-drum-kit/claps-snares/4.wav" class="item" data-key="R">
+                    Clap 4<br />
+                    <span class="shortcut">(R)</span>
+                </button>
+                <button data-src="./audio/west-coast-drum-kit/claps-snares/5.wav" class="item" data-key="T">
+                    Clap 5<br />
+                    <span class="shortcut">(T)</span>
+                </button>
+            </div>
+
+            <div class="drum-group">
+                <h3>Kicks</h3>
+                <button data-src="./audio/west-coast-drum-kit/kicks/Kick1.wav" class="item" data-key="A">
+                    Kick 1<br />
+                    <span class="shortcut">(A)</span>
+                </button>
+                <button data-src="./audio/west-coast-drum-kit/kicks/Kick2.wav" class="item" data-key="S">
+                    Kick 2<br />
+                    <span class="shortcut">(S)</span>
+                </button>
+                <button data-src="./audio/west-coast-drum-kit/kicks/Kick3.wav" class="item" data-key="D">
+                    Kick 3<br />
+                    <span class="shortcut">(D)</span>
+                </button>
+                <button data-src="./audio/west-coast-drum-kit/kicks/Kick4.wav" class="item" data-key="F">
+                    Kick 4<br />
+                    <span class="shortcut">(F)</span>
+                </button>
+                <button data-src="./audio/west-coast-drum-kit/kicks/Kick5.wav" class="item" data-key="G">
+                    Kick 5<br />
+                    <span class="shortcut">(G)</span>
+                </button>
+            </div>
+
+            <div class="drum-group">
+                <h3>Percs</h3>
+                <button data-src="./audio/west-coast-drum-kit/percs/Perc1.wav" class="item" data-key="Z">
+                    Perc 1<br />
+                    <span class="shortcut">(Z)</span>
+                </button>
+                <button data-src="./audio/west-coast-drum-kit/percs/Perc2.wav" class="item" data-key="X">
+                    Perc 2<br />
+                    <span class="shortcut">(X)</span>
+                </button>
+                <button data-src="./audio/west-coast-drum-kit/percs/Perc3.wav" class="item" data-key="C">
+                    Perc 3<br />
+                    <span class="shortcut">(C)</span>
+                </button>
+                <button data-src="./audio/west-coast-drum-kit/percs/Perc4.wav" class="item" data-key="V">
+                    Perc 4<br />
+                    <span class="shortcut">(V)</span>
+                </button>
+                <button data-src="./audio/west-coast-drum-kit/percs/Perc5.wav" class="item" data-key="B">
+                    Perc 5<br />
+                    <span class="shortcut">(B)</span>
+                </button>
+            </div>
+
+        </div>
+        
+        <script src="./scripts.js" async defer></script>
+    </body>
+</html>
